@@ -1,0 +1,35 @@
+<!DOCTYPE html/>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8" />
+	<!-- <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" /> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin-ext" rel="stylesheet">
+<link rel="stylesheet" media="(max-width: 640px)" href="small.css">
+<link rel="stylesheet" media="(min-width: 640px)" href="style.css">
+
+    <!-- <link id="stylesheet" rel="stylesheet" href="style.css" type="text/css"> -->
+
+</head>
+
+
+<body>
+    <div id="pojemnik">
+        <div id="nav">Memoraholic</div>
+		
+        <div class="start">
+			<form id="howmanypic" style="font-size: 50%;">
+			  <span style="font-size:1.5rem;">How many pictures to remember ? </span>
+			  <input type="number" id="how-many-pic" onchange="changeNumberOfPics()" name="how-much" min=3 max=30 value=5>
+			</form>
+			<button onclick="showPicsOnSecondWindow()" class="btn-start" id="przycisk">START</button>
+			<p class="tip">You can use an enter to start or restart game and a space to skip and finish</p>
+      </div>
+</div>
+    <script src="game.js"></script>
+</body>
+
+
+</html>
