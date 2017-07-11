@@ -8,6 +8,10 @@ If you memorize all the images in less than 50 seconds, you can stop the timer.
 ![Screenshot](screenshot.jpg)
 
 -
+![Screenshot](screenshot1.jpg)
+
+-
+
 
 ![Screenshot](screenshot2.jpg)
 
